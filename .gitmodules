@@ -1,0 +1,9 @@
+[submodule "pack/emsger/start/vim-gruvbox8"]
+	path = pack/emsger/start/vim-gruvbox8
+	url = https://github.com/lifepillar/vim-gruvbox8.git
+[submodule "pack/emsger/start/ale"]
+	path = pack/emsger/start/ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule "pack/emsger/start/lightline.vim"]
+	path = pack/emsger/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
