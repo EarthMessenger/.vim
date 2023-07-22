@@ -39,5 +39,9 @@ if has("gui_running")
 	set guioptions-=T
 endif
 
-let g:netrw_liststyle=3
 nn <F2> :Vex<CR>
+
+augroup CompleteConfig
+	autocmd!
+	autocmd CompleteDone * pclose
+augroup END
