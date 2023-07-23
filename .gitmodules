@@ -7,3 +7,6 @@
 [submodule "pack/emsger/start/lightline.vim"]
 	path = pack/emsger/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim.git
+[submodule "pack/emsger/start/LeaderF"]
+	path = pack/emsger/start/LeaderF
+	url = https://github.com/Yggdroot/LeaderF.git
