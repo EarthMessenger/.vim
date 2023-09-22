@@ -10,3 +10,6 @@
 [submodule "pack/emsger/start/LeaderF"]
 	path = pack/emsger/start/LeaderF
 	url = https://github.com/Yggdroot/LeaderF.git
+[submodule "pack/emsger/start/zoxide.vim"]
+	path = pack/emsger/start/zoxide.vim
+	url = https://github.com/nanotee/zoxide.vim.git

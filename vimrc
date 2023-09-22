@@ -9,7 +9,10 @@ set nu
 set rnu
 set ls=2
 set list
-set lcs=tab:▏\ 
+set lcs=tab:\|\ 
+
+set fdm=marker
+nn <Space> za
 
 im fj <ESC>
 im jf <ESC>
@@ -31,7 +34,8 @@ augroup TermConfig
 augroup END
 
 if has("gui_running")
-	set guifont=IosevkaTerm\ Nerd\ Font\ Mono\ 13
+	set guifont=Iosevka\ 11
+	set guiligatures=<-=>\:_~/!*\|+
 	set guioptions-=e
 	set guioptions-=g
 	set guioptions-=m
@@ -47,11 +51,3 @@ augroup CompleteConfig
 	autocmd!
 	autocmd CompleteDone * pclose
 augroup END
-
-let g:Lf_ShortcutF = "<leader>ff"
-
-let g:Lf_ShortcutF = "<leader>ff"
-noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
-noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s", "")<CR><CR>
-noremap <leader>ft :<C-U><C-R>=printf("Leaderf bufTag %s", "")<CR><CR>
-noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
