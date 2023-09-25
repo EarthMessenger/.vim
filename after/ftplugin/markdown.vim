@@ -1,6 +1,8 @@
-set et
-set ts=4
-set sts=4
-set sw=4
+setl et
+setl ts=4
+setl sts=4
+setl sw=4
+setl nonu
+setl nornu
 
-set fo+=mB
+setl fo+=mB
