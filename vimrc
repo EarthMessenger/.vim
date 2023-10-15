@@ -1,5 +1,8 @@
 so $VIMRUNTIME/vimrc_example.vim
 
+set et
+set sts=2
+set sw=2
 set ai
 set si
 set cin
