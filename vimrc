@@ -11,8 +11,6 @@ set tm=200
 set nu
 set rnu
 set ls=2
-set list
-set lcs=tab:\|\ 
 
 set fdm=marker
 nn <Space> za
@@ -20,6 +18,7 @@ nn <Space> za
 im fj <ESC>
 im jf <ESC>
 
+nn <backspace> :noh<CR>
 nn <C-s> :up<CR>
 
 colorscheme gruvbox8
